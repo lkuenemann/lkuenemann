@@ -11,15 +11,15 @@ I am a software engineer interested in tackling challenges with new technologies
 
 ## Experience
 
-# International Graduate Engineer
-AKKA Technologies, Ulm, Germany\
+# International Graduate Consultant
+**AKKA Technologies**, Ulm, Germany  
 January 2020 - April 2020
 
 * Trained for consulting and project management at the AKKAdemy (AKKA’s internal training facilities) in Geneva, Switzerland for a month
 * Customized and upgraded embedded Linux images for ARM based boards on Yocto
 
 # Field Application Engineer
-Kalray, Los Altos, CA, USA\
+**Kalray**, Los Altos, CA, USA  
 September 2017 - November 2018
 
 * Took care of technical pre-sales and customer support in the Americas and Taiwan for datacenter (NVMe-oF) & embedded autonomous car (neural networks, computer vision) solutions based on Kalray’s manycore processors
@@ -27,13 +27,13 @@ September 2017 - November 2018
 * Took part in team-wide software release QA testing for datacenter products
 
 # Software Development Intern
-Atys Medical, Lyon, France\
+**Atys Medical**, Lyon, France  
 February 2017 - July 2017
 
 * Based on research papers, implemented skin segmentation and analysis algorithms for 2D and 3D echographic images of the dermis in a C++/Qt software using a rigorous test-driven approach
 
 # Research Intern
-University of Tsukuba, Japan\
+**University of Tsukuba**, Japan  
 June 2016 - August 2016
 
 * Implemented, improved, and tested an electrocardiogram sonification process in Ruby language and SuperCollider sound synthesis environment
@@ -42,19 +42,19 @@ June 2016 - August 2016
 ## Education
 
 # Master of Engineering in Signal, Image, Communication, and Multimedia
-Phelma - Grenoble Institute of Technology, France\
+**Phelma - Grenoble Institute of Technology**, France  
 September 2014 - August 2017
 
 * Classes in Signal Processing, Image Processing, Programming & Object Oriented Programming, Operating Systems, Microprocessors, Information Theory, Digital Communication, Automation, Electronics, Data Analysis, Statistics, English, and Japanese
 
 # Exchange Student in Electrical and Electronics Engineering
-Pohang University of Science and Technology, South Korea\
+**Pohang University of Science and Technology**, South Korea  
 September 2016 - February 2017
 
 * Classes in Computer Vision, Neural Networks, Mobile Robotics, and Korean
 
 # Engineering School Preparatory Classes
-Kléber High School, Strasbourg, France\
+**Kléber High School**, Strasbourg, France  
 September 2012 - August 2014
 
 * Intensive university level education in Mathematics, Physics, Engineering Sciences, Chemistry, English, German, and Philosophy
