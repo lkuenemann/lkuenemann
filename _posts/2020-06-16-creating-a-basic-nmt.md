@@ -56,7 +56,7 @@ The English and French sentences are saved together in a CSV style file called f
 
 ```
 ├── _about.txt	# info file about the dataset
-├── fra.txt		# dataset csv file
+├── fra.txt	# dataset csv file
 ├── fra-eng.zip	# dataset zip archive
 └── nmt.ipynb	# my python notebook for coding
 ```
