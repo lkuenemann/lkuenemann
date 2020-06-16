@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Creating a Basic Neural Machine Translation System
+categories: ml
 ---
 
 This article was inspired by [this article][a-star-nmt] from Raven Hon, and [this article][nmt-from-scratch] from Jason Brownlee. Rather than simply following and applying articles online, I decided to write my own tutorial following the philosophy of Albert Einstein's quote:
