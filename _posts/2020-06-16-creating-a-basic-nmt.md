@@ -661,7 +661,7 @@ I hope this tutorial has been useful to you in taking a first look at NMT system
 There are many possibilities to improve the NMT system we have created today, such as adding extra LSTM layers to our encoder and decoder, adding an [attention network][attention], or using a more realistic dataset like the [Europarl][euro] parallel corpus, in order to translate longer and more complex text with higher accuracy.
 
 
-[notebook]: https://github.com/lkuenemann/mllab/blob/master/nmt.ipynb
+[notebook]: https://github.com/lkuenemann/mllab/blob/master/basic-nmt.ipynb
 [nmt-from-scratch]: https://machinelearningmastery.com/develop-neural-machine-translation-system-keras/
 [a-star-nmt]: https://www.codeastar.com/nmt-make-an-easy-neural-machine-translator/
 [sp]: https://github.com/google/sentencepiece
