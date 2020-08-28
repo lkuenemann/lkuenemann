@@ -125,15 +125,21 @@ To identify the type of data augmentation that are relevant to the problem, we n
 
 Here are a few images that illustrate the major issues of our dataset.
 
-![Example of cropped image](/images/2020-08-26-flower-classification-on-kaggle/cropping.png "Example of cropped image")
+<p align="center">
+  <img width="179" height="182" src="/images/2020-08-26-flower-classification-on-kaggle/cropping.png" alt="Example of cropped image" title="Example of cropped image">
+</p>
 
 The first one is that a lot of pictures are cropped. They don't show the flowers in their entirety, meaning that our model may be unable to access some important features to classify them! One way to compensate for that is to artificially crop our data randomly during training.
 
-![Example of occluded image](/images/2020-08-26-flower-classification-on-kaggle/occlusion.png "Example of occluded image")
+<p align="center">
+  <img width="182" height="182" src="/images/2020-08-26-flower-classification-on-kaggle/occlusion.png" alt="Example of occluded image" title="Example of occluded image">
+</p>
 
 Another issue is that some pictures have the flowers to classify not as the subject, but merely as a background, partially occluded by other objects. To compensate for this, one can use [random erasing](random-erasing), a technique that randomly adds rectangles filled with white noise on top of our images, blocking part of their content, as illustrated in the image below.
 
-![Illustration of random erasing data augmentation](/images/2020-08-26-flower-classification-on-kaggle/erasing.png "Illustration of random erasing data augmentation")
+<p align="center">
+  <img width="262" height="252" src="/images/2020-08-26-flower-classification-on-kaggle/erasing.png" alt="Illustration of random erasing data augmentation" title="Illustration of random erasing data augmentation">
+</p>
 
 Finally, to train our model to be more robust against flowers rotated in various directions or upside-down, I added some random flips (left-right and upside-down) and 90 degrees rotations to our array of data augmentations.
 
