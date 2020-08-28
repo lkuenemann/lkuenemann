@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Basic Neural Machine Translation System
+title: Creating a basic neural machine translation system
 categories: ml
 ---
 
