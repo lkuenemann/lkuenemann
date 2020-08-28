@@ -12,11 +12,11 @@ categories: ml
 ## Introduction
 
 While looking for interesting projects to train on, I have recently decided to give [Kaggle](kaggle) a go.
-[Kaggle](kaggle) is an online community for data science and machine learning, allowing you to publish code, datasets, interact with other members, and take part in competitions. They offer you to run your Python notebook remotely on their server with GPU and TPU acceleration, making it interesting for people like me without dedicated equipement at home.
+[Kaggle](kaggle) is an online community for data science and machine learning, allowing you to publish code, datasets, interact with other members, and take part in competitions. They offer you to run your Python notebook remotely on their servers with GPU and TPU acceleration, making it interesting for people like me without dedicated equipment at home.
 
 I joined in on the ["Petals to the Metal: Flower Classification on TPU"](petals) introduction competition in order to test out the platform and explore the basics of TPU acceleration. The goal is to classify images of flowers into a hundred or so flower categories.
 
-The dataset is fairly small (we'll get back to that later) and split in 2 for training and validation. There is no "secret" test dataset to rank submissions once the competition closes since it is a permanent training competition.
+The dataset is fairly small (we'll get back to that later) and split in 2 for training and validation. There is no "secret" test dataset to rank submissions once the competition closes since it is a permanently ongoing training competition.
 
 In this post I will be discussing my workflow and thought process.
 
@@ -24,7 +24,7 @@ In this post I will be discussing my workflow and thought process.
 
 Before anything else, it is always a good idea to take a look at the resources available, namely the dataset.
 
-I tried working on a data visualization code, but quickly switched to looking at what the community had already made available. The strength of Kaggle is to allow for open collaboration and mutual learning, especially on training oriented competitions.
+I tried working on some data visualization code, but quickly switched to looking at what the community had already made available. The strength of Kaggle is to allow for open collaboration and mutual learning, especially on training oriented competitions.
 
 I decided to use [this code](eda-notebook) made available by user DimitreOliveira with beautifully made data displays.
 
@@ -32,7 +32,7 @@ I decided to use [this code](eda-notebook) made available by user DimitreOliveir
 
 The first interesting property to notice is the very unbalanced label distribution. Most classes barely reach a hundred images in the training set, while a handful classes only pass the 500 and even 800 mark. This means that during training, the model will be able to more easily learn and generalize about these handful of classes while struggling with the rest.
 
-Another property to notice is the generally small number of images per class. In machine learning and especially deep learning, having less than thousands of data points is usually considered little data. In practice, this makes it difficult to train a model from scratch using this dataset.
+Another property to notice is the generally small number of images per class. In machine learning and especially deep learning, having fewer than thousands of data points is usually considered little data. In practice, this makes it difficult to train a model from scratch using this dataset.
 
 ![Label distribution on the training and validation sets](/images/2020-08-26-flower-classification-on-kaggle/label-distribution.png "Label distribution on the training and validation sets")
 
@@ -127,7 +127,7 @@ Here are a few images that illustrate the major issues of our dataset.
 
 ![Example of cropped image](/images/2020-08-26-flower-classification-on-kaggle/cropping.png "Example of cropped image")
 
-The first one is that a lot of pictures are cropped. They don't show the flowers in their entirety, meaning that our model may be unable to access some important features to classify them! One way to compensate for that is to artifically crop our data randomly during training.
+The first one is that a lot of pictures are cropped. They don't show the flowers in their entirety, meaning that our model may be unable to access some important features to classify them! One way to compensate for that is to artificially crop our data randomly during training.
 
 ![Example of occluded image](/images/2020-08-26-flower-classification-on-kaggle/occlusion.png "Example of occluded image")
 
@@ -144,11 +144,11 @@ In a nutshell, our workflow for this project has been the following:
 2. Using transfer learning to quickly adapt a model
 3. Adding data augmentation to improve the results
 4. Further training our model with the fine-tuning post transfer learning
-5. Fine-tuning all the hyperparameters to unlock the best results
+5. Fine-tuning all the hyper-parameters to unlock the best results
 
-All of this combined and tuned a little allowed me to reach an accuracy over 0.93 on the validation dataset. This has been a nice introduction to Kaggle, and I would recommend it to anyone interested in learning about data science, machine learning, and image classifcation.
+All of this combined and tuned a little allowed me to reach an accuracy over 0.93 on the validation dataset. This has been a nice introduction to Kaggle, and I would recommend it to anyone interested in learning about data science, machine learning, and image classification.
 
-Since I wanted this article to describe more of a general image classification workflow, I haven't aborded the subject of TPU acceleration, which this competition also introduces. I am not very familiar with it yet, but it might become the topic of a future project.
+Since I wanted this article to describe more of a general image classification workflow, I haven't touched the subject of TPU acceleration, which this competition also introduces. I am not very familiar with it yet, but it might become the topic of a future project.
 
 
 [notebook]: https://www.kaggle.com/luckuenemann/flower-classification-on-tpu
