@@ -15,28 +15,31 @@ I am a software engineer interested in tackling challenges with new technologies
 **AKKA Technologies**, Ulm, Germany  
 January 2020 - April 2020
 
-* Trained for consulting and project management at the AKKAdemy (AKKA’s internal training facilities) in Geneva, Switzerland for a month
-* Customized and upgraded embedded Linux images for ARM based boards on Yocto
+* Set-up the cross-compilation environment, revamped the outdated embedded Linux image for ARM-based boards for embedded automotive remote diagnostics
+* Customized the Linux image to leverage the hardware (CAN, GPS, cellular network), and enable higher level applications (Java run-time) based on Polarion requirements
+* Improved project management, consulting, and innovation skills through AKKA’s internal training program at the AKKAdemy, Geneva, Switzerland
 
 ### Field Application Engineer
 **Kalray**, Los Altos, CA, USA  
 September 2017 - November 2018
 
-* Took care of technical pre-sales and customer support in the Americas and Taiwan for datacenter (NVMe-oF) & embedded autonomous car (neural networks, computer vision) solutions based on Kalray’s manycore processors
-* Developed unit and regression tests for Kalray's datacenter software in a Jenkins continuous integration environment and improved the QA process
-* Took part in team-wide software release QA testing for datacenter products
+* Took care of technical pre-sales and customer support in the Americas and Taiwan for datacenter (NVMe-oF) & embedded autonomous car (neural networks, computer vision) solutions based on Kalray’s MPPA manycore processors
+* Developed unit and regression tests to strengthen the firmware of Kalray’s datacenter solutions and enrich the Jenkins continuous integration QA process
+* Collaborated with the datacenter team for the software release QA campaigns
 
 ### Software Development Intern
 **Atys Medical**, Lyon, France  
 February 2017 - July 2017
 
-* Based on research papers, implemented skin segmentation and analysis algorithms for 2D and 3D echographic images of the dermis in a C++/Qt software using a rigorous test-driven approach
+* Based on research papers, implemented image segmentation and image analysis algorithms for 2D and 3D echographic images of the dermis in the company’s C++/Qt visualization software using a rigorous test-driven approach
+* Revamped the graphical user interface of the software
 
 ### Research Intern
 **University of Tsukuba**, Japan  
 June 2016 - August 2016
 
-* Implemented, improved, and tested an electrocardiogram sonification process in Ruby language and SuperCollider sound synthesis environment
+* Implemented an electrocardiogram sonification algorithm developed in-house, in a Ruby (scripting) and SuperCollider (sound synthesis) environment
+* Tested and improved the capabilities of the algorithm to convey information
 
   
 ## Education
